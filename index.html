@@ -20,13 +20,17 @@
 
     <script src="https://unpkg.com/feather-icons"></script>
 
+    <!-- AOS -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My Style -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!-- Navbar start -->
 
-    <nav class="navbar">
+    <nav class="navbar" data-aos="fade-down" data-aos-duration="800">
       <a href="#" class="navbar-logo">Ceria<span>Phone</span></a>
 
       <div class="navbar-nav">
@@ -47,14 +51,33 @@
 
     <!-- Hero Section start-->
 
-    <section class="hero" id="home">
+    <section class="hero" id="home" data-aos="zoom-in" data-aos-duration="600">
       <main class="content">
-        <h1>Toko Handphone Terlengkap <span>Di Nusantara</span></h1>
-        <p>
+        <h1
+          data-aos="fade-right"
+          data-aos-delay="800"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
+          Toko Handphone Terlengkap <span>Di Nusantara</span>
+        </h1>
+        <p
+          data-aos="fade-right"
+          data-aos-delay="1000"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ipsa
           omnis aperiam facere laudantium sit cumque, non sunt nemo quo!
         </p>
-        <a href="#" class="cta">Beli Sekarang</a>
+        <a
+          href="#"
+          class="cta"
+          data-aos="fade-right"
+          data-aos-delay="1200"
+          data-aos-easing="ease-in-sine"
+          >Beli Sekarang</a
+        >
       </main>
     </section>
 
@@ -62,13 +85,26 @@
 
     <!-- About Section start -->
     <section id="about" class="about">
-      <h2><span>Tentang</span> Kami</h2>
+      <h2 data-aos="fade-down" data-aos-duration="400">
+        <span>Tentang</span> Kami
+      </h2>
 
       <div class="row">
         <div class="about-img">
-          <img src="img/foto-handphone-2.jpg" alt="Tentang Kami" />
+          <img
+            src="img/foto-handphone-2.jpg"
+            alt="Tentang Kami"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          />
         </div>
-        <div class="content">
+        <div
+          class="content"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <h3>Kenapa Memilih Ceria Phone?</h3>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
@@ -87,8 +123,10 @@
     <!-- Tipe Handphone Section start -->
 
     <section id="tipehandphone" class="tipehandphone">
-      <h2><span>Tipe</span> Handphone</h2>
-      <p>
+      <h2 data-aos="fade-down" data-aos-duration="200">
+        <span>Tipe</span> Handphone
+      </h2>
+      <p data-aos="fade-down" data-aos-delay="200">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro neque
         repellat modi perspiciatis veritatis hic.
       </p>
@@ -99,36 +137,56 @@
             src="img/tipe-handphone/iphone-12.jpg"
             alt="Iphone 12"
             class="tipehandphone-card-img"
+            data-aos="fade-down"
           />
-          <h3 class="tipehandphone-card-title">- Iphone 12 -</h3>
-          <p class="tipehandphone-card-price">IDR 20.000.000</p>
+          <h3 class="tipehandphone-card-title" data-aos="fade-down">
+            - Iphone 12 -
+          </h3>
+          <p class="tipehandphone-card-price" data-aos="fade-down">
+            IDR 20.000.000
+          </p>
         </div>
         <div class="tipehandphone-card">
           <img
             src="img/tipe-handphone/xiaomi-note-10-lite.jpg"
             alt="Xiaomi Note 10 Lite"
             class="tipehandphone-card-img"
+            data-aos="fade-down"
           />
-          <h3 class="tipehandphone-card-title">- Xiaomi Note 10 Lite -</h3>
-          <p class="tipehandphone-card-price">IDR 10.000.000</p>
+          <h3 class="tipehandphone-card-title" data-aos="fade-down">
+            - Xiaomi Note 10 Lite -
+          </h3>
+          <p class="tipehandphone-card-price" data-aos="fade-down">
+            IDR 10.000.000
+          </p>
         </div>
         <div class="tipehandphone-card">
           <img
             src="img/tipe-handphone/oppo-reno5.jpg"
             alt="Oppo Reno 5"
             class="tipehandphone-card-img"
+            data-aos="fade-down"
           />
-          <h3 class="tipehandphone-card-title">- Oppo Reno 5 -</h3>
-          <p class="tipehandphone-card-price">IDR 8.000.000</p>
+          <h3 class="tipehandphone-card-title" data-aos="fade-down">
+            - Oppo Reno 5 -
+          </h3>
+          <p class="tipehandphone-card-price" data-aos="fade-down">
+            IDR 8.000.000
+          </p>
         </div>
         <div class="tipehandphone-card">
           <img
             src="img/tipe-handphone/samsung-s21-ultra.jpg"
             alt="Samsung S21 Ultra"
             class="tipehandphone-card-img"
+            data-aos="fade-down"
           />
-          <h3 class="tipehandphone-card-title">- Samsung S21 Ultra -</h3>
-          <p class="tipehandphone-card-price">IDR 15.000.000</p>
+          <h3 class="tipehandphone-card-title" data-aos="fade-down">
+            - Samsung S21 Ultra -
+          </h3>
+          <p class="tipehandphone-card-price" data-aos="fade-down">
+            IDR 15.000.000
+          </p>
         </div>
       </div>
     </section>
@@ -138,8 +196,10 @@
     <!-- Kontak Section start -->
 
     <section id="kontak" class="kontak">
-      <h2><span>Kontak</span> Kami</h2>
-      <p>
+      <h2 data-aos="fade-down" data-aos-duration="800">
+        <span>Kontak</span> Kami
+      </h2>
+      <p data-aos="fade-down" data-aos-duration="900">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
         temporibus.
       </p>
@@ -151,9 +211,17 @@
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           class="maps"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
         ></iframe>
 
-        <form action="">
+        <form
+          action=""
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <div class="input-group">
             <i data-feather="user"></i>
             <input type="text" placeholder="Nama Anda" />
@@ -203,6 +271,12 @@
     <!-- Feathers Icons -->
     <script>
       feather.replace();
+    </script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
 
     <!-- My Javascript -->
